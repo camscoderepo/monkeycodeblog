@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Lewis Gatsby Starter Blog`,
-    description: `A custom Gatsby starter template to start a blog or personal website.`,
+    title: `Cameron JS/GO blog`,
+    description: `A blog I started because I am sick of other blogs.`,
     siteUrl: `https://lewis-gatsby-starter-blog.netlify.com`,
   },
   plugins: [

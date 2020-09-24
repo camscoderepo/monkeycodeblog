@@ -20,19 +20,15 @@ const About = ({ data }) => {
         <HeadingXL>About</HeadingXL>
         <Image fluid={data.RandomPhoto.childImageSharp.fluid} />
         <TextBody>
-          Building mr concerns servants in he outlived am breeding. He so lain
-          good miss when sell some at if. Told hand so an rich gave next. How
-          doubt yet again see son smart. While mirth large of on front. Ye he
-          greater related adapted proceed entered an. Through it examine express
-          promise no. Past add size game cold girl off how old.
+          Monkey who codes on a daily basis. This is my blog and what I hope to
+          do with it is give people a resource that shows examples that you can't 
+          find as easily elsewhere. Everything is copied fairly quickly on the net
+          these days but I plan to give more in depth solutions to things than others
+          have elsewhere here, even if it takes longer to produce content.
           <br />
           <br />
-          Bringing so sociable felicity supplied mr. September suspicion far him
-          two acuteness perfectly. Covered as an examine so regular of. Ye
-          astonished friendship remarkably no. Window admire matter praise you
-          bed whence. Delivered ye sportsmen zealously arranging frankness
-          estimable as. Nay any article enabled musical shyness yet sixteen yet
-          blushes. Entire its the did figure wonder off.
+          I am determined to help my fellow developer and monkies anyway that I can!
+          Feel free to reach out for any inquires or  questions!
         </TextBody>
         <Button href="mailto:your&#64;email.com">Get in touch</Button>
       </Layout>

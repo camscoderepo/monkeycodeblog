@@ -55,10 +55,9 @@ const Home = ({ data }) => {
       <HeaderLogo />
       <Layout>
         <Hero>
-          <HeadingXL>Lewis Gatsby Starter Blog</HeadingXL>
+          <HeadingXL>Monkey blogger</HeadingXL>
           <TextHome>
-            This is a custom Gatsby starter template to start a new blog or
-            personal website.
+            This is some text about the blog.
           </TextHome>
         </Hero>
         {data.allMarkdownRemark.edges.map(({ node }) => (
