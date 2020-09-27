@@ -55,7 +55,7 @@ const Home = ({ data }) => {
       <HeaderLogo />
       <Layout>
         <Hero>
-          <HeadingXL>Monkey blogger</HeadingXL>
+          <HeadingXL>GO Monkey</HeadingXL>
           <TextHome>
             This is some text about the blog.
           </TextHome>

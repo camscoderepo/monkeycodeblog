@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Cameron JS/GO blog`,
+    title: `Go Monkey`,
     description: `A blog I started because I am sick of other blogs.`,
     siteUrl: `https://lewis-gatsby-starter-blog.netlify.com`,
   },
@@ -11,6 +11,12 @@ module.exports = {
       options: {
         name: `src`,
         path: `${__dirname}/src/`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "gomonkey.s3.amazonaws.com",
       },
     },
     {

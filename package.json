@@ -1,7 +1,7 @@
 {
   "name": "lewis-gatsby-starter-blog",
   "description": "A custom Gatsby starter template to start a blog or personal website.",
-  "author": "@lewislbr",
+  "author": "@cameronr",
   "repository": {
     "type": "git",
     "url": "https://github.com/lewislbr/lewis-gatsby-starter-blog"
@@ -24,6 +24,7 @@
     "gatsby-plugin-offline": "^3.2.9",
     "gatsby-plugin-react-helmet": "^3.3.4",
     "gatsby-plugin-robots-txt": "^1.5.1",
+    "gatsby-plugin-s3": "^0.3.5",
     "gatsby-plugin-sharp": "^2.6.11",
     "gatsby-plugin-sitemap": "^2.4.5",
     "gatsby-plugin-styled-components": "^3.3.4",
