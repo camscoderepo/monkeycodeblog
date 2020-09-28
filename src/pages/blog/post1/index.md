@@ -14,9 +14,9 @@ Go has several different types to represent numbers. Generally we split numbers 
 
 Integers are numbers without a decimal component.
 
-Go's Integer types are: `uint8`, `uint16`, `uint32`, `uint64`,`int8`,`int16`,`int32`, `int64`. The numbers are to tell us how many bits each of the types use and the u in front of uint means unsigned integer. Unsigned integers only contain positive numbers (or zero).
+Go's Integer types are: **uint8**, **uint16**, **uint32**, **uint64**, **int8**, **int16**,**int32**,**int64**. The numbers are to tell us how many bits each of the types use and the u in front of uint means unsigned integer. Unsigned integers only contain positive numbers (or zero).
 
-Generally if working with integers you should just use the int type.
+Generally if working with integers you should just use the **int** type.
 
 ## Floating Point Numbers
 Floating point numbers cointain a decimal component(real numbers). Their actual representation on a computer is fairly complicated and not really necessary in order to know how to use them. For now we only need to know the following things.
@@ -25,14 +25,14 @@ Floating point numbers are inexact. Occasionally it isn't possible to represent 
 
 Like integers floating point numbers have a certain size, either 32bit or 64. Using a larger sized floating point increases how many digits it can represent.
 
-Go has two floating point types, `float32` and `float64`. As well as two additional types for representing complex numbers, complex64 and complex128. Stick with `float64` for the most part when working with floating point numbers as it makes the most sense in a lot of situations.
+Go has two floating point types, **`float32`** and **`float64`**. As well as two additional types for representing complex numbers, complex64 and complex128. Stick with `float64` for the most part when working with floating point numbers as it makes the most sense in a lot of situations.
 
 ## Strings
 A string is a sequence of characters with a definite length that represents text. Go strings are made up of bytes, usually one for each character. The reason I say usually is because characters from other languages like Chinese for example, are represented by more than one byte.
 
-``String literals can be created using double quotes "Awesome" or back ticks `Awesome`.`` The difference is that double quoted strings cannot contain newlines and they allow for escape sequences. An example would be /n getting replace with a newline.
+``String literals can be created using double quotes "Awesome" or back ticks `Awesome`.`` The difference is that double quoted strings cannot contain newlines and they allow for escape sequences. An example would be **/n** getting replace with a newline.
 
-Common operations on strings include finding the length: len(string), accessing characters of string: `"Awesome"[1]`, and concatenating two strings together: "Awesome" + "Sauce".
+Common operations on strings include finding the length: len(string), accessing characters of string: **`Awesome[1]`**, and concatenating two strings together: **"Awesome"** + **"Sauce"**.
 
 Things to keep in mind:
 
@@ -45,9 +45,9 @@ Things to keep in mind:
 ## Booleans
 A boolean is a 1 bit integer type used to represent true or false(on or off). We use three logical operators when working with boolean values:
 
->-&&
->-||
->-!
+* &&
+* ||
+* -!
 
 These are the simplest types included with Go and form the foundation for which all other types are built.
 
