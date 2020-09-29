@@ -3,7 +3,7 @@ title: 'Types in GO'
 date: '2020-09-24'
 ---
 
-![photo](post1photo1.jpg)
+![photo](types.png)
 
 Types are the most important thing in Go. Go is a statically typed language and that means that variables have a specific type and that type cannot change. Static typing sounds cumbersome at first, you will spend a lot of time just trying to get things to compile at first. Types help us reason about what our program is doing though and catch a wide variety of common mistakes.
 
@@ -69,8 +69,8 @@ interface - a collection of method signatures that a type can implement
 #**Custom type**
 Go allows for you to create your own kinds of types when you have more complex scenarios that basic and composite types won't satisfy. For example lets say we had one integer that represents a number of minutes and another that represents hours, how would we tell these two apart? We would use a custom type!
 
-Declare a custom type: type Minutes int
+Declare a custom type: **`type Minutes int`**
 
-This declares a type of int and sets it to a basic type of int, we could do the same thing for hours: type Hours int
+This declares a type of int and sets it to a basic type of int, we could do the same thing for hours: **`type Hours int`**
 
 There is a whole lot more to Types in Go and when you start coding you will see how you actually have to implement type correctly to avoid errors. I hope that this at least gave you a basic understanding of types and how to use them in Go!
