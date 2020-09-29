@@ -5,7 +5,7 @@ date: '2020-09-24'
 
 ![photo](types.png)
 
-Types are the most important thing in Go. Go is a statically typed language and that means that variables have a specific type and that type cannot change. Static typing sounds cumbersome at first, you will spend a lot of time just trying to get things to compile at first. Types help us reason about what our program is doing though and catch a wide variety of common mistakes.
+Types are the most important thing in Go. Go is a statically typed language and that means that variables have a specific type and that type cannot change. Static typing sounds cumbersome at first, you will spend a lot of time just trying to get things to compile in the beginning. Types help us reason about what our program is doing though and catch a wide variety of common mistakes. 
 
 #**Basic Types**
 

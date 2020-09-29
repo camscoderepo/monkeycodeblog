@@ -57,7 +57,7 @@ const Home = ({ data }) => {
         <Hero>
           <HeadingXL>GO Monkey</HeadingXL>
           <TextHome>
-            This is some text about the blog.
+          Blogs on everything GO
           </TextHome>
         </Hero>
         {data.allMarkdownRemark.edges.map(({ node }) => (
