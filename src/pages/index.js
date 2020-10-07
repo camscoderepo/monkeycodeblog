@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 import styled from 'styled-components';
+//import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
 
 import { BREAKPOINT } from '../utils/constants';
 

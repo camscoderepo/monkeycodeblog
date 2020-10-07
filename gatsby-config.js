@@ -1,8 +1,10 @@
+const targetAddress = new URL(process.env.TARGET_ADDRESS || `http://www.gomonkey.blog`)
+
 module.exports = {
   siteMetadata: {
     title: `Go Monkey`,
     description: `A blog I started because I am sick of other blogs.`,
-    siteUrl: `https://lewis-gatsby-starter-blog.netlify.com`,
+    siteUrl: `https://www.gomonkey.blog`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -14,9 +16,22 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-highlight-code`
+          },
+        ],
+      },
+    },
+    
+    {
       resolve: `gatsby-plugin-s3`,
       options: {
-        bucketName: "gomonkey.s3.amazonaws.com",
+        bucketName: process.env.TARGET || "gomonkey.s3.amazonaws.com",
+        protocol: targetAddress.protocol.slice(0, -1),
+        hostname: targetAddress.hostname,
       },
     },
     {
