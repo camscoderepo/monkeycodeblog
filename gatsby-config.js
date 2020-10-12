@@ -3,7 +3,7 @@ const targetAddress = new URL(process.env.TARGET_ADDRESS || `http://www.gomonkey
 module.exports = {
   siteMetadata: {
     title: `Go Monkey`,
-    description: `A blog I started because I am sick of other blogs.`,
+    description: `A blog I started because monkies can make blogs too`,
     siteUrl: `https://www.gomonkey.blog`,
   },
   plugins: [
