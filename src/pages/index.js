@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 import styled from 'styled-components';
+//import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader';
 
 import { BREAKPOINT } from '../utils/constants';
 
@@ -21,6 +22,9 @@ const Hero = styled.div`
     margin-bottom: 15vh;
   }
 `;
+
+
+
 
 const TextHome = styled.p`
   color: var(--dark-color-light);
@@ -64,7 +68,7 @@ const Home = ({ data }) => {
           <Link to={node.fields.slug} key={node.id}>
             <Post>
               <HeadingL>{node.frontmatter.title}</HeadingL>
-              <TextBody>{node.excerpt}</TextBody>
+                <TextBody>{node.excerpt}</TextBody>
               <TextDate>{node.frontmatter.date}</TextDate>
             </Post>
           </Link>
