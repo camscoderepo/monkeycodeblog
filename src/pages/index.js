@@ -23,6 +23,9 @@ const Hero = styled.div`
   }
 `;
 
+
+
+
 const TextHome = styled.p`
   color: var(--dark-color-light);
   display: block;
@@ -65,7 +68,7 @@ const Home = ({ data }) => {
           <Link to={node.fields.slug} key={node.id}>
             <Post>
               <HeadingL>{node.frontmatter.title}</HeadingL>
-              <TextBody>{node.excerpt}</TextBody>
+                <TextBody>{node.excerpt}</TextBody>
               <TextDate>{node.frontmatter.date}</TextDate>
             </Post>
           </Link>
